@@ -6,7 +6,7 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
-  background:#999;
+  background:#D28A69;
 }
 
 .wrapper{
@@ -26,7 +26,7 @@ p img{
 }
 
 .mainnav{
-  background-color: lightgrey;
+  background-color: #9F6950;
   margin-bottom: 2%;
 }
 
@@ -47,19 +47,19 @@ p img{
 }
 
 .content{
-  background-color: lightgrey;
+  background-color: #9F6950;
   padding: 1%;
   margin-bottom: 1%;
 }
 
 .side{
-  background-color: lightgrey;
+  background-color: #9F6950;
   padding: 1%;
   margin-bottom: 1%;
 }
 
 .footer{
-  background-color: lightgrey;
+  background-color: #9F6950;
   padding: 1%;
   margin-bottom: 1%;
 }
@@ -107,6 +107,8 @@ p img{
 
 
   .mainnav{
+    background-image: url(http://lorempixel.com/600/400/cats/);
+    width: 100%;
     float: left;
     width: 20%;
   }
