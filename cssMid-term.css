@@ -2,6 +2,7 @@
   	margin: 0;
     padding: 0;
     box-sizing: border-box;
+     
 }
 
 body{
@@ -37,6 +38,7 @@ p img{
 
 .mainnav ul li a{
   color: black;
+  font-weight: bold;
   text-decoration: none;
   display: block;
 }
@@ -107,10 +109,12 @@ p img{
 
 
   .mainnav{
-    background-image: url(http://lorempixel.com/600/400/cats/);
-    width: 100%;
+    background: url(http://lorempixel.com/300/300/cats/) no-repeat center 95%;
     float: left;
     width: 20%;
+    background-size: 95% auto;
+    padding-bottom: 20vw;
+
   }
 
   .mainnav ul li{
